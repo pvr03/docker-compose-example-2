@@ -8,5 +8,6 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    container_name: webapp
   db:
     image: postgres:9.6
